@@ -53,11 +53,24 @@ img{
 }
 /*houses*/ 
 .houses-container{
-
+  display: flex;
 }
 .houses-item{
   background-color: #dedede;
+  margin-right: 10px;
 }
 .houses-item-text{
   padding: 20px;
+}
+.houses-items-details{
+  display: flex;
+ justify-content: space-between;
+ margin: 20px;
+}
+.icons-container{
+  display: flex;
+  justify-content: space-around;
+}
+.icons-container img{
+  margin-right: 20px;
 }
